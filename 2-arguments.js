@@ -1,6 +1,6 @@
 const Username = "shawnsmith@gmail.com";
  if (Username.includes("@")) {
-    console.log("No Argument");
+    console.log("Argument found");
  }else { 
     console.log("No Arguments found");
  }
