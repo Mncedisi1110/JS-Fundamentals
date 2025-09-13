@@ -1,4 +1,4 @@
-const List = [89];
+const List = [89,'89',89.89,'ALX'];
 
 List.forEach(list=> {
     if ((Number(list))) {
