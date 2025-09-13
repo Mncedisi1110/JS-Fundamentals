@@ -8,4 +8,4 @@ if (argv) {
 }else{
     console.log("Arguments found");
 }
-console.log(args);
+
