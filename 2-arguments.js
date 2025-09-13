@@ -1,6 +1,6 @@
 // No argument
 const args = process.argv;
-const argv = args[0];
+const argv = args[2];
 if (argv) {
     console.log('Argument found');
 } else if (!argv) {
