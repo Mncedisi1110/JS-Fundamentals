@@ -1,4 +1,6 @@
-const name = function () {
-   return " No argument";
+const Username = "Shawnsmith@gmail.com"
+if (Username.includes("@")) {
+   console.log("Argument found");
+}else {
+   console.log("Argument not found");
 }
-console.log(name());
