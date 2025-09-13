@@ -1,1 +1,10 @@
+const List = [89];
 
+List.forEach(list=> {
+    if ((Number(list))) {
+        console.log(`My number: ${list} `);
+    }else {
+        console.log(`Not a number: ${list} `);
+    }
+
+});
