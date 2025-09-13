@@ -1,7 +1,6 @@
-const List = ['I', 'was','born', 'in', '1985', '22', 'August'];
+const List = [89];
 
 List.forEach(list=> {
-    console.log(Number(list));
     if ((Number(list))) {
         console.log(`My number: ${list} `);
     }else {
