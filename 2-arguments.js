@@ -1,10 +1,10 @@
-const args = process.argv;
-const argv = args[1];
- if ( argv === args[0]) {
-    console.log('Argument found');
- } else if (argv === undefined) {
-    console.log("No argument");
- }else{
+const args = process.argv
+args.push(8);
+let argv = args[2];
+if (!argv) {
+    console.log('No argument');
+} else if (isNaN(argv)) {
+    console.log("Argument found");
+} else{
     console.log("Arguments found");
- }
-
+}
