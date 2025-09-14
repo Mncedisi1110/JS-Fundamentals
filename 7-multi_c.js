@@ -1,6 +1,7 @@
-const sentence ="C is fun";
-i = 0;
-while(i<6) {
-  console.log(sentence);
-  i++;
-}
+const sentence =[ "C is fun"];
+sentence.forEach( sent=>{
+    for(let i=0 ; i<6; i++){
+        console.log(sentence);
+    }
+});
+
