@@ -8,7 +8,7 @@ for (let i = 0; i<=9; i++){
     }else if(side[1]) {
       console.log("Size 3");
     }else{
-      console.log("Nop")
+      console.log("xxxxxxxxxx")
     }
   });
 
