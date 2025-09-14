@@ -1,8 +1,5 @@
-
-const indexs = [0];
-indexs.forEach((indexs)=> {
-    const args = process.argv;
-    const argv = args[indexs];
+const args = process.argv;
+const argv = args[1];
  if ( argv === args[0]) {
     console.log('Argument found');
  } else if (argv === undefined) {
@@ -10,4 +7,4 @@ indexs.forEach((indexs)=> {
  }else{
     console.log("Arguments found");
  }
-});
+
