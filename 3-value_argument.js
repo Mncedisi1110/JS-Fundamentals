@@ -1,8 +1,11 @@
 const args = process.argv;
-const argv = args[1];
+args.push ("hbtn");
+let argv = args[0];
 if ( !argv) {
     console.log("No argument");
+}else if (argv===args[0]) {
+    console.log("HBTN");
 }else {
-    console.log(argv);
+    console.log("HBTN cool");
 }
-    
+ console.log(args);
