@@ -1,12 +1,14 @@
 
 const args = process.argv;
-const argv = args[1];
 args.additional = "extra";
-if ( argv === args[0]) {
+const indexs = [0,1,2,];
+indexs.forEach((indexs)=> {
+    const argv = args[indexs];
+ if ( argv === args[0]) {
     console.log('Argument found');
-} else if (argv === undefined) {
+ } else if (argv === undefined) {
     console.log("No argument");
-}else{
+ }else{
     console.log("Arguments found");
-}
-
+ }
+});
