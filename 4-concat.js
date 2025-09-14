@@ -1,9 +1,11 @@
 const args = process.argv;
+let firstsentence = args[0];
+let secondsentence = args[1];
 
-if (args.slice(0,2)){
-    console.log ( "Python fun");
-}else if (args.slice(0,1)){
-    console.log("HBTN");
+if (firstsentence && secondsentence){
+    console.log ( "Python is fun");
+}else if (firstsentence){
+    console.log("HBTN is undefined");
 }else {
-    console.log("0 arguments");
+    console.log("undefined is undefined");
 }
