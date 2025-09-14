@@ -1,12 +1,12 @@
-// No argument
+
 const args = process.argv;
-const argv = args[3];
+const argv = args[1];
 args.additional = "extra";
-if (argv) {
+if ( argv === args[0]) {
     console.log('Argument found');
-} else if (!argv) {
+} else if (argv === undefined) {
     console.log("No argument");
 }else{
     console.log("Arguments found");
 }
-console.log(args);
+
