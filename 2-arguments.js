@@ -4,7 +4,7 @@ let argv = args[3];
 if (!argv) {
     console.log('No argument');
 } else if (isNaN(argv)) {
-    console.log("Argument found");
-} else{
     console.log("Arguments found");
+} else{
+    console.log("Argument found");
 }
