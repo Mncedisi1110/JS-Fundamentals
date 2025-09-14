@@ -7,5 +7,5 @@ if (argv === "htbn"){
 }else if (!argv) {
     console.log("No argument");
 }else{
-    console.log ("HBTN cool")
+    console.log ("HBTN")
 }
