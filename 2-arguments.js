@@ -1,8 +1,7 @@
 
-const args = process.argv;
-args.additional = "extra";
-const indexs = [0,1,2,];
+const indexs = [0,1,2];
 indexs.forEach((indexs)=> {
+    const args = process.argv;
     const argv = args[indexs];
  if ( argv === args[0]) {
     console.log('Argument found');
