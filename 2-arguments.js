@@ -1,5 +1,5 @@
 
-const indexs = [0,1,2];
+const indexs = [0];
 indexs.forEach((indexs)=> {
     const args = process.argv;
     const argv = args[indexs];
