@@ -1,6 +1,6 @@
 const args = process.argv;
 args.push ("hbtn");
-let argv = args[0];
+let argv = args[4];
 if ( !argv) {
     console.log("No argument");
 }else if (argv===args[0]) {
