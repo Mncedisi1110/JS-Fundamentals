@@ -10,6 +10,3 @@ function factorial(a) {
     }
 }
 console.log(factorial(4));
-console.log(factorial(89));
-console.log(factorial(1000));
-console.log(factorial());
