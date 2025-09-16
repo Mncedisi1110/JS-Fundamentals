@@ -5,8 +5,7 @@ function factorial(a) {
         return 1.6507955160908452e+136;
     }else if (a==1000) {
         return "Infinity";
-    }else {
-        return "NaN";
     }
+    return a*factorial(a-1);
 }
 console.log(factorial(4));
